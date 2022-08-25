@@ -123,6 +123,7 @@ a {
 }
 .contents .chatBox .chatList li .msgBox .msg {
   margin-right: 10px;
+  white-space: pre;
 }
 .contents .chatBox .chatList li .msgBox .time {
   font-size: 12px;
@@ -138,9 +139,9 @@ a {
   margin-left: 10px;
 }
 .contents .sendBox {
+  display: flex;
   width: 100%;
   height: 100px;
-  display: flex;
   background-color: #d9d9d9;
 }
 .contents .sendBox label {
@@ -152,27 +153,27 @@ a {
   margin-right: 10px;
   padding: 10px;
   font-family: "Noto Sans KR";
+  font-family: inherit;
   border: none;
   resize: none;
   outline: none;
-  font-family: inherit;
 }
 .contents .sendBox .btnArea {
-  position: relative;
   flex-basis: 15%;
+  position: relative;
 }
 .contents .sendBox .btnArea .btnSend {
+  width: 50px;
   position: absolute;
   top: 10px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50px;
   padding: 3px 0;
   font-size: 14px;
   border: 1px solid #ddd;
   outline: none;
   background-color: #f0f0f0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .contents .sendBox .btnArea .btnSend.on {
   color: #fff;

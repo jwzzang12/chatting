@@ -21,9 +21,6 @@ io.on("connection", (socket) => {
   //보낼땐 emit 받을때는 on
 });
 app.get("/", (req, res) => {
-  res.send("hello express");
-});
-app.get("/chatting", (req, res) => {
   res.sendFile(path.join(__dirname, "/public/html/chatting.html"));
   //path.join을 사용하면 지정된 컴퓨터 경로에 접근
 });
