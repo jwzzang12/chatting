@@ -6,7 +6,7 @@ Basic chatting application made and designed by me.
 
 Built with HTML, JS(jQuery), SCSS, Node.js
 
-Anybody who has <a href="https://jwzzang12-chatting.herokuapp.com">link</a> they can join.
+Anybody who has <a href="https://jwzzang12-chatting.herokuapp.com">link</a> can join.
 
 ## Project Screen Shot
 
